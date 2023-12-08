@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style:none;
+}
+header{
+  background-color: rgb(7, 59, 59);
+  width: 100%;
+  height: 30px;
+}
+header .header{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header .contact-det{
+  display: flex;
+  line-height: 30px;
+}
+.contact-det p{
+  color: white;
+  margin: 0 20px;
+}
+.header .icons{
+  line-height: 30px;
+}
+.icons i{
+  font-size: 20px;
+  color: white;
+  margin: 0 20px;
+}
+nav{
+  width: 100%;
+  background-color:teal;
+  height: 50px;
+}
+nav label{
+  margin:0 40px;
+  line-height: 50px;
+  color: white;
+  font-size:20px;
+  font-weight:bold;
+}
+nav ul{
+  float: right;
+  display: flex;
+  margin: 0 20px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+li{
+ margin: 0 10px;
+}
+li a{
+  color: white;
+}
+.herosection{
+  width: 100%;
+  background-color: teal;
+}
+.herosection .container{
+ width: 95%;
+ margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 0;
+}
+.text h1{
+  color: white;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text p{
+  color:rgb(186, 178, 178);
+  margin: 10px 0;
+}
+.text .signup-btn{
+  border: none;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin: 20px 10px;
+  color: white;
+  background-color:teal;
+}
+.text .watchvideo-btn{
+  border: none;
+  color: white;
+  background-color:transparent;
+}
+
+.floats{
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+}
+.box-cont{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box-cont .box{
+  border: none;
+  box-shadow: 2px 2px 2px;
+  background-color:teal;
+  padding:70px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 20px;
+ 
+}
+.box i{
+  font-size: 30px;
+}
